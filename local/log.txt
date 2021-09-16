@@ -1,0 +1,14 @@
+Array
+(
+    [0] => a:3:{s:7:"'VALUE'";s:8:"36mLaGyv";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [1] => a:3:{s:7:"'VALUE'";s:8:"36mLaGyv";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [2] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [3] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [4] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [5] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [6] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [7] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [8] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [9] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+    [10] => a:3:{s:7:"'VALUE'";s:0:"";s:7:"'TITLE'";s:0:"";s:13:"'DESCRIPTION'";s:0:"";}
+)

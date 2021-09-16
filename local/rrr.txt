@@ -1,0 +1,1585 @@
+1Array
+(
+    [id] => Array
+        (
+            [ID] => 1
+        )
+
+    [fields] => Array
+        (
+            [UF_NAME] => testss
+        )
+
+    [object] => EO_IgrikMy Object
+        (
+            [_entity:protected] => Bitrix\Main\ORM\Entity Object
+                (
+                    [className:protected] => \IgrikMyTable
+                    [module:protected] => 
+                    [name:protected] => IgrikMy
+                    [connectionName:protected] => default
+                    [dbTableName:protected] => igrik_hl
+                    [primary:protected] => Array
+                        (
+                            [0] => ID
+                        )
+
+                    [autoIncrement:protected] => ID
+                    [uf_id:protected] => 
+                    [isUts:protected] => 
+                    [isUtm:protected] => 
+                    [fields:protected] => Array
+                        (
+                            [ID] => Bitrix\Main\ORM\Fields\IntegerField Object
+                                (
+                                    [is_primary:protected] => 1
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 1
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => ID
+                                    [default_value:protected] => 
+                                    [name:protected] => ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => integer
+                                            [primary] => 1
+                                            [autocomplete] => 1
+                                            [title] => ID
+                                        )
+
+                                    [title:protected] => ID
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_NAME] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_NAME
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_NAME
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Название
+                                        )
+
+                                    [title:protected] => Название
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_CODE] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_CODE
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_CODE
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Символьный код
+                                        )
+
+                                    [title:protected] => Символьный код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Описание
+                                        )
+
+                                    [title:protected] => Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_XML_ID] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_XML_ID
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_XML_ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Внешний код
+                                        )
+
+                                    [title:protected] => Внешний код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_FULL_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_FULL_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Полное Описание
+                                        )
+
+                                    [title:protected] => Полное Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [fieldsMap:protected] => Array
+                        (
+                            [ID] => Array
+                                (
+                                    [data_type] => integer
+                                    [primary] => 1
+                                    [autocomplete] => 1
+                                    [title] => ID
+                                )
+
+                            [UF_NAME] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Название
+                                )
+
+                            [UF_CODE] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Символьный код
+                                )
+
+                            [UF_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Описание
+                                )
+
+                            [UF_XML_ID] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Внешний код
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Полное Описание
+                                )
+
+                        )
+
+                    [u_fields:protected] => 
+                    [code:protected] => 
+                    [references:protected] => Array
+                        (
+                        )
+
+                    [isClone:protected] => 
+                )
+
+            [_state:protected] => 2
+            [_actualValues:protected] => Array
+                (
+                    [ID] => 1
+                )
+
+            [_currentValues:protected] => Array
+                (
+                    [UF_NAME] => testss
+                )
+
+            [_runtimeValues:protected] => Array
+                (
+                )
+
+            [_customData:protected] => 
+            [_onPrimarySetListeners:protected] => Array
+                (
+                )
+
+            [_authContext:protected] => 
+        )
+
+)
+Array
+(
+    [id] => Array
+        (
+            [ID] => 1
+        )
+
+    [fields] => Array
+        (
+            [UF_NAME] => testss
+        )
+
+    [object] => EO_IgrikMy Object
+        (
+            [_entity:protected] => Bitrix\Main\ORM\Entity Object
+                (
+                    [className:protected] => \IgrikMyTable
+                    [module:protected] => 
+                    [name:protected] => IgrikMy
+                    [connectionName:protected] => default
+                    [dbTableName:protected] => igrik_hl
+                    [primary:protected] => Array
+                        (
+                            [0] => ID
+                        )
+
+                    [autoIncrement:protected] => ID
+                    [uf_id:protected] => 
+                    [isUts:protected] => 
+                    [isUtm:protected] => 
+                    [fields:protected] => Array
+                        (
+                            [ID] => Bitrix\Main\ORM\Fields\IntegerField Object
+                                (
+                                    [is_primary:protected] => 1
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 1
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => ID
+                                    [default_value:protected] => 
+                                    [name:protected] => ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => integer
+                                            [primary] => 1
+                                            [autocomplete] => 1
+                                            [title] => ID
+                                        )
+
+                                    [title:protected] => ID
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_NAME] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_NAME
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_NAME
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Название
+                                        )
+
+                                    [title:protected] => Название
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_CODE] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_CODE
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_CODE
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Символьный код
+                                        )
+
+                                    [title:protected] => Символьный код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Описание
+                                        )
+
+                                    [title:protected] => Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_XML_ID] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_XML_ID
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_XML_ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Внешний код
+                                        )
+
+                                    [title:protected] => Внешний код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_FULL_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_FULL_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Полное Описание
+                                        )
+
+                                    [title:protected] => Полное Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [fieldsMap:protected] => Array
+                        (
+                            [ID] => Array
+                                (
+                                    [data_type] => integer
+                                    [primary] => 1
+                                    [autocomplete] => 1
+                                    [title] => ID
+                                )
+
+                            [UF_NAME] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Название
+                                )
+
+                            [UF_CODE] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Символьный код
+                                )
+
+                            [UF_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Описание
+                                )
+
+                            [UF_XML_ID] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Внешний код
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Полное Описание
+                                )
+
+                        )
+
+                    [u_fields:protected] => 
+                    [code:protected] => 
+                    [references:protected] => Array
+                        (
+                        )
+
+                    [isClone:protected] => 
+                )
+
+            [_state:protected] => 2
+            [_actualValues:protected] => Array
+                (
+                    [ID] => 1
+                )
+
+            [_currentValues:protected] => Array
+                (
+                    [UF_NAME] => testss
+                )
+
+            [_runtimeValues:protected] => Array
+                (
+                )
+
+            [_customData:protected] => 
+            [_onPrimarySetListeners:protected] => Array
+                (
+                )
+
+            [_authContext:protected] => 
+        )
+
+)
+Array
+(
+    [id] => Array
+        (
+            [ID] => 1
+        )
+
+    [fields] => Array
+        (
+            [UF_NAME] => testss
+        )
+
+    [object] => EO_IgrikMy Object
+        (
+            [_entity:protected] => Bitrix\Main\ORM\Entity Object
+                (
+                    [className:protected] => \IgrikMyTable
+                    [module:protected] => 
+                    [name:protected] => IgrikMy
+                    [connectionName:protected] => default
+                    [dbTableName:protected] => igrik_hl
+                    [primary:protected] => Array
+                        (
+                            [0] => ID
+                        )
+
+                    [autoIncrement:protected] => ID
+                    [uf_id:protected] => 
+                    [isUts:protected] => 
+                    [isUtm:protected] => 
+                    [fields:protected] => Array
+                        (
+                            [ID] => Bitrix\Main\ORM\Fields\IntegerField Object
+                                (
+                                    [is_primary:protected] => 1
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 1
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => ID
+                                    [default_value:protected] => 
+                                    [name:protected] => ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => integer
+                                            [primary] => 1
+                                            [autocomplete] => 1
+                                            [title] => ID
+                                        )
+
+                                    [title:protected] => ID
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_NAME] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_NAME
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_NAME
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Название
+                                        )
+
+                                    [title:protected] => Название
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_CODE] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_CODE
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_CODE
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Символьный код
+                                        )
+
+                                    [title:protected] => Символьный код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Описание
+                                        )
+
+                                    [title:protected] => Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_XML_ID] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_XML_ID
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_XML_ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Внешний код
+                                        )
+
+                                    [title:protected] => Внешний код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_FULL_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_FULL_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Полное Описание
+                                        )
+
+                                    [title:protected] => Полное Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [fieldsMap:protected] => Array
+                        (
+                            [ID] => Array
+                                (
+                                    [data_type] => integer
+                                    [primary] => 1
+                                    [autocomplete] => 1
+                                    [title] => ID
+                                )
+
+                            [UF_NAME] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Название
+                                )
+
+                            [UF_CODE] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Символьный код
+                                )
+
+                            [UF_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Описание
+                                )
+
+                            [UF_XML_ID] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Внешний код
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Полное Описание
+                                )
+
+                        )
+
+                    [u_fields:protected] => 
+                    [code:protected] => 
+                    [references:protected] => Array
+                        (
+                        )
+
+                    [isClone:protected] => 
+                )
+
+            [_state:protected] => 2
+            [_actualValues:protected] => Array
+                (
+                    [ID] => 1
+                )
+
+            [_currentValues:protected] => Array
+                (
+                    [UF_NAME] => testss
+                )
+
+            [_runtimeValues:protected] => Array
+                (
+                )
+
+            [_customData:protected] => 
+            [_onPrimarySetListeners:protected] => Array
+                (
+                )
+
+            [_authContext:protected] => 
+        )
+
+)
+Array
+(
+    [id] => Array
+        (
+            [ID] => 1
+        )
+
+    [fields] => Array
+        (
+            [UF_NAME] => testss
+        )
+
+    [object] => EO_IgrikMy Object
+        (
+            [_entity:protected] => Bitrix\Main\ORM\Entity Object
+                (
+                    [className:protected] => \IgrikMyTable
+                    [module:protected] => 
+                    [name:protected] => IgrikMy
+                    [connectionName:protected] => default
+                    [dbTableName:protected] => igrik_hl
+                    [primary:protected] => Array
+                        (
+                            [0] => ID
+                        )
+
+                    [autoIncrement:protected] => ID
+                    [uf_id:protected] => 
+                    [isUts:protected] => 
+                    [isUtm:protected] => 
+                    [fields:protected] => Array
+                        (
+                            [ID] => Bitrix\Main\ORM\Fields\IntegerField Object
+                                (
+                                    [is_primary:protected] => 1
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 1
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => ID
+                                    [default_value:protected] => 
+                                    [name:protected] => ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => integer
+                                            [primary] => 1
+                                            [autocomplete] => 1
+                                            [title] => ID
+                                        )
+
+                                    [title:protected] => ID
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_NAME] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_NAME
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_NAME
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Название
+                                        )
+
+                                    [title:protected] => Название
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_CODE] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_CODE
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_CODE
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Символьный код
+                                        )
+
+                                    [title:protected] => Символьный код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Описание
+                                        )
+
+                                    [title:protected] => Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_XML_ID] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_XML_ID
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_XML_ID
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Внешний код
+                                        )
+
+                                    [title:protected] => Внешний код
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Bitrix\Main\ORM\Fields\StringField Object
+                                (
+                                    [format:protected] => 
+                                    [size:protected] => 
+                                    [is_primary:protected] => 
+                                    [is_unique:protected] => 
+                                    [is_required:protected] => 
+                                    [is_autocomplete:protected] => 
+                                    [is_private:protected] => 
+                                    [is_nullable:protected] => 
+                                    [column_name:protected] => UF_FULL_DESCRIPTION
+                                    [default_value:protected] => 
+                                    [name:protected] => UF_FULL_DESCRIPTION
+                                    [dataType:protected] => 
+                                    [initialParameters:protected] => Array
+                                        (
+                                            [data_type] => string
+                                            [title] => Полное Описание
+                                        )
+
+                                    [title:protected] => Полное Описание
+                                    [validation:protected] => 
+                                    [validators:protected] => 
+                                    [additionalValidators:protected] => Array
+                                        (
+                                        )
+
+                                    [fetchDataModification:protected] => 
+                                    [fetchDataModifiers:protected] => 
+                                    [additionalFetchDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [saveDataModification:protected] => 
+                                    [saveDataModifiers:protected] => 
+                                    [additionalSaveDataModifiers:protected] => Array
+                                        (
+                                        )
+
+                                    [isSerialized:protected] => 
+                                    [parentField:protected] => 
+                                    [entity:protected] => Bitrix\Main\ORM\Entity Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [fieldsMap:protected] => Array
+                        (
+                            [ID] => Array
+                                (
+                                    [data_type] => integer
+                                    [primary] => 1
+                                    [autocomplete] => 1
+                                    [title] => ID
+                                )
+
+                            [UF_NAME] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Название
+                                )
+
+                            [UF_CODE] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Символьный код
+                                )
+
+                            [UF_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Описание
+                                )
+
+                            [UF_XML_ID] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Внешний код
+                                )
+
+                            [UF_FULL_DESCRIPTION] => Array
+                                (
+                                    [data_type] => string
+                                    [title] => Полное Описание
+                                )
+
+                        )
+
+                    [u_fields:protected] => 
+                    [code:protected] => 
+                    [references:protected] => Array
+                        (
+                        )
+
+                    [isClone:protected] => 
+                )
+
+            [_state:protected] => 2
+            [_actualValues:protected] => Array
+                (
+                    [ID] => 1
+                )
+
+            [_currentValues:protected] => Array
+                (
+                    [UF_NAME] => testss
+                )
+
+            [_runtimeValues:protected] => Array
+                (
+                )
+
+            [_customData:protected] => 
+            [_onPrimarySetListeners:protected] => Array
+                (
+                )
+
+            [_authContext:protected] => 
+        )
+
+)
+13.09.2021 20:24:47
+13.09.2021 20:28:12
+13.09.2021 20:28:42
+13.09.2021 20:28:49
+13.09.2021 20:44:33
+13.09.2021 20:44:33
+13.09.2021 20:44:33
+13.09.2021 20:44:33
+13.09.2021 20:44:33
+13.09.2021 20:44:59
+13.09.2021 20:44:59
+13.09.2021 20:44:59
+13.09.2021 20:44:59
+13.09.2021 20:44:59
+13.09.2021 21:22:31
+13.09.2021 21:22:31
+13.09.2021 21:22:52
+13.09.2021 21:22:52
+13.09.2021 22:40:23
+13.09.2021 22:40:23
+13.09.2021 22:40:28
+13.09.2021 22:40:28
+13.09.2021 22:40:37
+13.09.2021 22:40:42
+13.09.2021 22:40:43
+13.09.2021 22:40:48
+13.09.2021 22:40:48
+13.09.2021 22:40:49
+13.09.2021 22:40:50
+13.09.2021 22:40:54
+13.09.2021 22:40:56
+13.09.2021 22:41:02
+13.09.2021 22:41:10
+13.09.2021 22:41:34
+13.09.2021 22:41:37
+13.09.2021 22:41:41
+13.09.2021 22:41:42
+13.09.2021 22:41:57
+13.09.2021 22:41:57
+13.09.2021 22:41:59
+13.09.2021 22:42:03
+13.09.2021 22:42:04
+13.09.2021 22:42:10
+13.09.2021 22:42:26
+13.09.2021 22:42:57
+13.09.2021 22:43:13
+13.09.2021 22:43:25
+13.09.2021 22:43:26
+13.09.2021 22:43:29
+13.09.2021 22:43:57
+13.09.2021 22:44:00
+13.09.2021 22:44:13
+13.09.2021 22:44:32
+13.09.2021 22:44:33
+13.09.2021 22:44:40
+13.09.2021 22:44:48
+13.09.2021 22:44:58
+13.09.2021 22:45:58
+14.09.2021 01:06:59
+14.09.2021 01:07:02
+14.09.2021 01:07:06
+14.09.2021 01:07:06
+14.09.2021 01:07:09
+14.09.2021 01:07:09
+14.09.2021 01:07:09
+14.09.2021 01:07:09
+14.09.2021 01:07:11
+14.09.2021 01:07:14
+14.09.2021 01:07:18

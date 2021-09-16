@@ -1,0 +1,44 @@
+.my_prop {
+
+}
+
+.mp_row {
+    margin-bottom: 30px
+}
+
+.mp_row select {
+    font-weight: bold;
+}
+
+.mp_row ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 20px
+}
+
+.mp_row ul li {
+    margin-bottom: 10px;
+    font-style: oblique;
+}
+
+
+.mp_row ul li div{
+    margin-top: 5px;
+}
+
+.mp_row ul li input[type="text"]{
+    width: 100%;box-sizing: border-box;
+
+}
+
+.mp_row del{display: inline-block; background: #777; cursor: pointer; padding: 5px; box-sizing: border-box;}
+.mp_row del:hover{display: inline-block; background: red;}
+.mp_row del:before{ content: 'x';}
+
+.mp_row abbr{display: none; background: #777; cursor: pointer; padding: 5px; box-sizing: border-box;}
+.mp_row abbr:hover{display: inline-block; background: red;}
+.mp_row abbr:before{ content: 'Удалить ?';}
+.mp_row.confirming abbr{display:flex;}
+.mp_row.confirming del{display:none;}

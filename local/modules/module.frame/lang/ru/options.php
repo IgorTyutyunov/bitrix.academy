@@ -1,0 +1,26 @@
+<?
+$MESS["SE_IBLOCK_TYPE_CATALOG_CODE"] = "Символьный код типа инфоблока с каталогом и ТП";
+$MESS["SE_LOG_API_WS"] = "Логировать запросы к вебсервису";
+$MESS["SE_LOG_API_1C"] = "Логировать запросы к 1С";
+$MESS["SE_LOG_API_QUEUE"] = "Логировать события очереди";
+$MESS["SE_URL"] = "URL API";
+$MESS["SE_TOKEN"] = "Токен авторизации";
+$MESS["SE_SECRET"] = "Секретный ключ для подписи JWT RFC7519";
+$MESS["SE_EID"] = "Поле, в котором хранится ExternalID";
+$MESS["SE_SP_PHONE"] = "Поле, в котором хранится телефон SalePlay";
+$MESS["SE_PHONE_CONFIRMED"] = "Поле, в котором хранится флаг подтверждения телефона";
+$MESS["SE_TAB_COMMON_NAME"] = "Общие настройки";
+$MESS["SE_TAB_COMMON_TITLE"] = "Общие настройки и константы модуля, для взаимодействия с сайтом";
+$MESS["SE_TAB_GENERAL_NAME"] = "API 1С";
+$MESS["SE_TAB_GENERAL_TITLE"] = "Общие настройки API 1С";
+$MESS["SE_TAB_WS_NAME"] = "API сайт";
+$MESS["SE_TAB_WS_TITLE"] = "Настройки API на стороне сайта";
+$MESS["SE_TAB_QS_NAME"] = "Очередь";
+$MESS["SE_TAB_QS_TITLE"] = "Настройки очереди отправки данных в 1С";
+$MESS["SE_ORDER_ADD_QUEUE_PAY"] = "Ставить заказ в очередь при полной/частичной оплате через эквайринг";
+$MESS["SE_ORDER_ADD_QUEUE_NEW"] = "Ставить заказ в очередь при добавлении";
+$MESS["SE_ORDER_ADD_QUEUE_STATUS"] = "Статусы заказов, при которы заказ ставится в очередь";
+$MESS["SE_MAX_COUNT_ATTEMPT"] = "Максимальное количество попыток отправки элемента очереди";
+$MESS["SE_COUNT_SEND_ITEMS"] = "Количество элементов очереди, отправляемых за одну попытку";
+$MESS["SE_OPTIONS_TAB_RIGHTS_NAME"] = "Доступ";
+$MESS["SE_OPTIONS_TAB_RIGHTS_TITLE"] = "Уровень доступа к модулю";

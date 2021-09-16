@@ -1,0 +1,126 @@
+a:3:{s:5:"VALUE";s:8:"K1DuXHdA";s:5:"TITLE";s:2:"df";s:11:"DESCRIPTION";s:3:"sdf";}
+Array
+(
+    [VALUE] => K1DuXHdA
+    [TITLE] => df
+    [DESCRIPTION] => sdf
+)
+
+
+a:3:{s:5:"VALUE";s:0:"";s:5:"TITLE";s:0:"";s:11:"DESCRIPTION";s:0:"";}
+Array
+(
+    [VALUE] => 
+    [TITLE] => 
+    [DESCRIPTION] => 
+)
+
+
+Array
+(
+    [0] => Array
+        (
+            [VALUE] => Укажите регион
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+    [1] => Array
+        (
+            [VALUE] => Укажите регион
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+    [1] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+    [2] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+    [1] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+    [2] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+    [3] => Array
+        (
+            [VALUE] => REFGG
+            [META] => Array
+                (
+                    [TITLE] => 
+                    [DESCRIPTION] => 
+                )
+
+        )
+
+)
